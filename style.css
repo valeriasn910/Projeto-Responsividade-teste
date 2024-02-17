@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.header1 {
+    width: 126px;
+    height: 29px;
+    display: inline;
+   
+    margin: 23px;
+   
+}
+
+a {
+
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 10px;
+    color: rgba(152, 157, 156, 1);
+    cursor: pointer;
+}
+a:hover{
+    opacity: .15;
+}
+a:active{
+    opacity: .10;
+}
+
+.button1 {
+    width: 130px;
+    height: 41px;
+    border-radius: 20.5px;
+    background: rgba(102, 90, 225, 1);
+
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.button1:hover{
+    opacity: .8;
+}
+.button1:active{
+    color:  rgb(38, 53, 43);
+}
+
+img {
+    display: inline-block;
+    width: 568px;
+    height: 500px;
+    margin-left: 80px;
+    margin-top: -400px;
+
+}
+
+
+.container1{
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 700px;
+}
+
+h1 {
+    width: 513px;
+    height: 122px;
+    top: -1150px;
+    left: -2437px;
+
+    
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 122px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(81, 81, 81, 1);
+
+}
+
+h3 {
+    width: 448px;
+    height: 71px;
+    top: -1029px;
+    left: -2437px;
+   
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 71px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(81, 81, 81, 1);
+
+}
+
+p {
+    width: 515px;
+    height: 87px;
+    top: -926px;
+    left: -2437px;
+
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    color: rgba(132, 132, 132, 1);
+
+}
+
+.button2 {
+
+    width: 147px;
+    height: 26.02px;
+    top: 15px;
+    left: 46px;
+
+    
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    color: rgba(0, 0, 0, 1);
+
+    width: 239px;
+    height: 64px;
+    top: -774px;
+    left: -2437px;
+    border-radius: 50px;
+    border: none;
+    background: rgba(173, 255, 0, 1);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.button2:hover {
+    opacity: .8;
+}
+
+.button2:active {
+    color: rgba(255, 255, 255, 1);
+}
+
+@media screen and (max-width:777px){
+    container1{
+        background: yellowgreen;
+
+    }
+    
+}
+
